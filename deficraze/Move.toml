@@ -1,0 +1,15 @@
+[package]
+name = "Aggregation"
+version = "1.0.0"
+authors = []
+
+[addresses]
+address = 0x1de0d74e2878abc557daed4cf2cf6cc331d41d6881fac681a393c4cfed44aca0
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
